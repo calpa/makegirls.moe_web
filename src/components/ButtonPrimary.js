@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import Config from '../Config'
+import Config from '../Config';
 
 class ButtonPrimary extends Component {
 
-    render() {
-        var style = {
-            backgroundColor: Config.colors.theme,
-            borderColor: Config.colors.themeDarker
-        };
+  render() {
+    const style = {
+      backgroundColor: Config.colors.theme,
+      borderColor: Config.colors.themeDarker,
+    };
 
-        return (
-            <button className={"btn btn-primary " + (this.props.className || '')} style={style} disabled={this.props.disabled} onClick={this.props.onClick}>{this.props.text}</button>
-        );
-    }
+    return (
+      <button className={`btn btn-primary ${this.props.className || ''}`} style={style} disabled={this.props.disabled} onClick={this.props.onClick}>{this.props.text}</button>
+    );
+  }
 }
 
 export default ButtonPrimary;

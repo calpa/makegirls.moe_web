@@ -5,6 +5,9 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "echarts": "^3.6.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
     "jquery": "^3.2.1",
     "rc-dialog": "^6.5.10",
     "react": "^15.6.1",
