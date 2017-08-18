@@ -6,7 +6,7 @@ const About = () => (
   <div className="about">
 
     <h3 style={{ color: Config.colors.theme }}>Site Authors</h3>
-    <p> Yanghua Jin / yanghuajin94@gmail.com /<a href="https://twitter.com/namaniku0" target="_blank" rel="noopener noreferrer">Aixile</a> (Fudan University/Preferred Networks)                                                               </p>
+    <p> Yanghua Jin / yanghuajin94@gmail.com /<a href="https://twitter.com/namaniku0" target="_blank" rel="noopener noreferrer">Aixile</a> (Fudan University/Preferred Networks)                                                                         </p>
     <p> Jiakai Zhang / zhangjk95@gmail.com (Carnegie Mellon University)</p>
     <h3 style={{ color: Config.colors.theme }}>Technical Report</h3>
     <a href="https://makegirlsmoe.github.io/assets/pdf/technical_report.pdf" target="_blank" rel="noopener noreferrer">Create Anime Characters with A.I. ! </a> <br />
